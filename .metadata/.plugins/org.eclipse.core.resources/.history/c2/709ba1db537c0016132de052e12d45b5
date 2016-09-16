@@ -1,0 +1,39 @@
+package com.belatrix.connect.page.object;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.belatrix.connect.framework.ParentPage;
+
+public class TabLinearLayout extends ParentPage {
+	
+	public TabLinearLayout(WebDriver driver) {
+		super(driver);
+	}
+	
+	By TITLE_PAGE = By
+			.xpath("//android.widget.TextView[@text='Belatrix Connect']");
+	By TAB_ACCOUNT = By.
+			id("com.belatrixsf.connect:id/username");
+	By TAB_RANKING = By.
+			id("com.belatrixsf.connect:id/password");
+	By TAB_ACTIVITY = By.
+			id("com.belatrixsf.connect:id/log_in");
+	By TAB_TOPTAGS = By.
+			id("com.belatrixsf.connect:id/forgot_password");
+
+	/**
+	  * This a method is for log In APP
+	  * @param String UserName
+	  * @param String password
+	 **/
+	public void loginOnApp(String userName, String password) throws Throwable 
+	{
+		sendKeys(TXT_USER_NAME, userName);
+		sendKeys(TXT_PASSWORD, password);
+		clickAndroidBackButton();
+		click(BTN_LOGIN);
+	}
+
+
+}
