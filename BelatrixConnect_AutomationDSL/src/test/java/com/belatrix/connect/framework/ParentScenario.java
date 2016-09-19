@@ -4,11 +4,6 @@ import java.net.URL;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import com.belatrix.connect.page.object.AlertMessageTwoOptions;
-import com.belatrix.connect.page.object.LoginPage;
-import com.belatrix.connect.page.object.MainProfilePage;
-import com.belatrix.connect.page.object.SideBarNavigation;
-import com.belatrix.connect.page.object.TabLinearLayout;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
