@@ -1,3 +1,0 @@
-This is a test file 
-
-this comment is a test
