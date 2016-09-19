@@ -1,9 +1,7 @@
 package com.belatrix.connect.steps;
 
 import org.testng.annotations.AfterClass;
-
 import com.belatrix.connect.framework.ParentScenario;
-
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 
@@ -11,7 +9,7 @@ public class Steps extends ParentScenario {
 
 	@Given("I access to the browser")
 	public void accessTheBrows55555er() {
-		startBrowser();
+		startAndroid();
 	}
 
 	@And("in the dash board page press in the button New Game")
