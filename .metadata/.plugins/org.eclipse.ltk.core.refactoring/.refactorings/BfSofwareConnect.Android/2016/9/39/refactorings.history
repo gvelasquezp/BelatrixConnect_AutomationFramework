@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LoginScenaries.feature&apos; to &apos;BelatrixConnect_AutomationDSL/src/test/resources/features&apos;&#x0D;&#x0A;- Original project: &apos;BfSofwareConnect.Android&apos;&#x0D;&#x0A;- Destination element: &apos;BelatrixConnect_AutomationDSL/src/test/resources/features&apos;&#x0D;&#x0A;- Original element: &apos;LoginScenaries.feature&apos;" description="Copy file" destination="=BelatrixConnect_AutomationDSL/src\/test\/resources&lt;features" element1="features/login_functionality/LoginScenaries.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1474290615981" units="0" version="1.0"/>
+</session>

@@ -2,29 +2,29 @@
 <suite name="Test runner" verbose="1" thread-count="2" parallel="tests">
 
 	<tests>
-		<test name="DEVAND18">
+		<test name="TestAndroid">
 			<parameters>
-				<parameter name="url" value="http://10.10.11.99:34724/wd/hub" />
+				<parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
 			</parameters>
 
 			<classes>
 				<packages>
-					<package name="com.testng_appium_cucumber.*" />
+					<package name="com.belatrix.connect.*"/>
 				</packages>
 			</classes>
 		</test>
 
-		<test name="DEVAND17">
-			<parameters>
-				<parameter name="url" value="http://10.10.11.99:34723/wd/hub" />
-			</parameters>
+<!-- 		<test name="DEVAND17"> -->
+<!-- 			<parameters> -->
+<!-- 				<parameter name="url" value="http://10.10.11.99:34723/wd/hub" /> -->
+<!-- 			</parameters> -->
 
-			<classes>
-				<packages>
-					<package name="com.testng_appium_cucumber.*" />
-				</packages>
-			</classes>
-		</test>
+<!-- 			<classes> -->
+<!-- 				<packages> -->
+<!-- 					<package name="com.testng_appium_cucumber.*" /> -->
+<!-- 				</packages> -->
+<!-- 			</classes> -->
+<!-- 		</test> -->
 
 	</tests>
 </suite>

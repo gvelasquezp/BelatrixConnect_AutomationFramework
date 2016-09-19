@@ -1,0 +1,58 @@
+@Regression @twiterSimpleTest
+Feature: Twitter - interview Nicolas Mori
+
+Scenario Outline: Access to twitter and write a post.
+
+Given I access to the browser
+And in the dash board page press in the button New Game
+And in the new game page press in the button Random and press into the Play Now button
+And in the round page press in spin button
+
+Examples:
+| browser 	| username					| password		| url							 	| port		|
+| chrome  	| nicolas.mori+1@gmail.com	| 472322		| https://www.google.com.ar/ 		| 4ggg723   |
+
+
+
+#@Regression @LoginTest @PackageTest1
+#Feature: Login Scenarios
+#
+#	#Scenario 1
+#	Scenario Outline: Login with correct values
+#	Given I open the app
+#	When I login with this "<username>" and this "<password>" values
+#	Then I see my user profile page
+#	When I logout of the App
+#	And I confirm the message displayed 
+#	Then App login should appears 
+#
+#	Examples:
+#
+#	|  username  | password |
+#	| gvelasquez | belatrix |
+#	
+#	
+#	
+#	#Scenario 2
+#	Scenario Outline: Login with incorrect username
+#	Given I open the app
+#	When I login with this "<username>" and this "<password>" values
+#	Then I see an error message for invalid login
+#
+#	Examples:
+#
+#	|   username  | password |
+#	| gvelasquess | belatrix |
+#	
+#	
+#	#Scenario 3
+#	Scenario Outline: Login with incorrect password
+#	Given I open the app
+#	When I login with this "<username>" and this "<password>" values
+#	Then I see an error message for invalid login
+#
+#	Examples:
+#
+#	|   username  | password  |
+#	| gvelasques  | belatrix1 |
+
