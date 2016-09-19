@@ -1,0 +1,5 @@
+package com.belatrix.connect.steps;
+
+public class LoginScenariesSteps {
+
+}

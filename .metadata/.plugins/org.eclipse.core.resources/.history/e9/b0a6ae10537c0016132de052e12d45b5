@@ -1,0 +1,14 @@
+package pages.login;
+
+import org.openqa.selenium.WebDriver;
+
+import com.belatrix.connect.framework.ParentPage;
+
+public class TabLinearLayout extends ParentPage {
+	
+	public TabLinearLayout(WebDriver driver) {
+		super(driver);
+	}
+
+
+}

@@ -1,0 +1,439 @@
+2016-09-16 14:01:37,171 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.belatrix.connect:BelatrixConnect_AutomationDSL:0.0.1 @ C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\pom.xml.
+2016-09-16 14:01:37,171 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.belatrix.connect:BelatrixConnect_AutomationDSL:0.0.1 @ C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\pom.xml.
+2016-09-16 14:01:44,076 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:01:44,078 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:01:44,082 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:01:44,088 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 14:01:44,986 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.belatrix.connect:BelatrixConnect_AutomationDSL:0.0.1 @ C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\pom.xml.
+2016-09-16 14:01:47,361 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:01:47,362 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:01:47,364 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:01:47,379 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 14:01:59,801 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BfSofwareConnect.Android:BfSofwareConnect.Android:0.0.1-SNAPSHOT @ C:\Users\bestrada\Desktop\AutomateTestBfConnect\BfSofwareConnect.Android\pom.xml.
+2016-09-16 14:02:01,720 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:01,722 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:02:01,724 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:01,726 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:02:04,224 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:04,226 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:02:04,227 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:04,228 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:02:14,782 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:14,784 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:02:14,787 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:14,790 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:02:14,811 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:14,812 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:02:14,814 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:02:14,815 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:24:48,520 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.48.2/selenium-api-2.48.2-sources.jar
+2016-09-16 14:24:49,338 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.48.2/selenium-api-2.48.2-sources.jar
+2016-09-16 14:24:49,502 [Worker-21] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-api:2.48.2
+2016-09-16 14:24:50,001 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:24:50,002 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:24:50,004 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:24:50,005 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 14:41:28,704 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:41:28,705 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:41:28,707 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:41:28,709 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 14:45:44,608 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:45:44,609 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:45:44,611 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:45:44,613 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 14:48:30,998 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:48:30,999 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:48:31,001 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:48:31,002 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 14:48:32,079 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:48:32,080 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:48:32,081 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:48:32,084 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 14:50:50,395 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:50:50,396 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:50:50,398 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:50:50,400 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 14:50:51,458 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:50:51,459 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 14:50:51,461 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 14:50:51,463 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 15:03:48,033 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:03:48,035 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 15:03:48,037 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:03:48,039 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 15:11:17,528 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:11:17,529 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 15:11:17,530 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:11:17,533 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 15:17:35,062 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:17:35,064 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 15:17:35,065 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:17:35,068 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 15:17:36,165 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:17:36,166 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 15:17:36,167 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:17:36,169 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 15:20:54,542 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:20:54,544 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 15:20:54,545 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 15:20:54,547 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:04:04,678 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:04,679 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:04:04,680 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:04,683 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:04:05,730 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:05,771 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:04:05,772 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:05,814 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:04:50,825 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:50,826 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:04:50,827 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:50,830 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:04:58,291 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:58,292 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:04:58,293 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:04:58,296 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:08:53,672 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:08:53,673 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:08:53,674 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:08:53,677 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:10:11,228 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:11,229 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 16:10:11,231 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:11,232 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 16:10:23,381 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:23,381 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:10:23,382 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:23,384 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:10:33,882 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:33,883 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:10:33,886 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:33,888 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:10:40,931 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:40,932 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:10:40,933 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:40,935 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:10:46,361 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:46,362 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:10:46,363 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:46,365 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:10:57,964 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:57,965 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:10:57,966 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:10:57,968 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:12:54,684 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:12:54,685 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:12:54,686 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:12:54,688 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:16:20,813 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:16:20,815 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 16:16:20,816 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:16:20,817 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 16:18:08,776 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:18:08,777 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 16:18:08,779 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:18:08,780 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-16 16:18:21,686 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:18:21,687 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:18:21,688 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:18:21,691 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:19:50,559 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:19:50,560 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:19:50,562 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:19:50,565 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:19:51,636 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:19:51,637 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:19:51,638 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:19:51,641 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:21:33,603 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:21:33,604 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:21:33,606 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:21:33,608 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:23:49,381 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:23:49,382 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:23:49,383 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:23:49,386 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:23:53,692 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:23:53,697 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:23:53,698 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:23:53,700 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:25:38,459 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:25:38,460 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:25:38,461 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:25:38,463 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:27:33,459 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:27:33,461 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:27:33,462 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:27:33,467 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:28:43,085 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:28:43,086 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:28:43,087 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:28:43,090 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-16 16:29:09,687 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:29:09,689 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-16 16:29:09,690 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 16:29:09,692 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:07:09,576 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:07:09,633 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:07:09,636 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:07:09,644 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:09:45,633 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:09:45,634 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:09:45,635 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:09:45,637 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:09:52,818 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:09:52,819 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:09:52,820 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:09:52,822 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:10:16,141 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:10:16,142 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:10:16,144 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:10:16,160 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 08:10:41,746 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:10:41,747 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:10:41,747 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:10:41,748 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 08:11:59,751 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:11:59,752 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:11:59,753 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:11:59,756 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-09-19 08:12:29,262 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:12:29,264 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:12:29,266 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:12:29,269 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-19 08:12:42,056 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:12:42,057 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:12:42,060 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:12:42,061 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 08:13:06,070 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:13:06,071 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:13:06,073 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:13:06,125 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:14:18,855 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:14:18,855 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:14:18,856 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:14:18,858 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:15:43,351 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:15:43,352 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:15:43,354 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:15:43,356 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:17:44,235 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:17:44,236 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:17:44,238 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:17:44,241 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:18:24,381 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:18:24,382 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:18:24,383 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:18:24,385 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:32:34,648 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:32:34,650 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:32:34,651 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:32:34,653 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:32:35,784 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:32:35,785 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:32:35,786 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:32:35,789 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:33:09,699 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:33:09,700 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:33:09,701 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:33:09,703 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:34:28,395 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:34:28,396 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:34:28,397 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:34:28,400 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:37:26,563 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:37:26,564 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:37:26,565 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:37:26,568 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:37:31,593 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:37:31,594 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:37:31,595 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:37:31,597 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:38:16,410 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:38:16,411 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:38:16,412 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:38:16,415 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:38:17,557 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:38:17,558 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:38:17,560 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:38:17,563 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:38:26,095 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:38:26,096 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:38:26,098 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:38:26,100 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:44:26,788 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:44:26,789 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:44:26,789 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:44:26,791 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:44:27,907 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:44:27,908 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:44:27,910 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:44:27,912 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 08:46:22,347 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:46:22,348 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 08:46:22,349 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 08:46:22,351 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:01:26,707 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:01:26,709 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:01:26,710 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:01:26,712 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:01:27,788 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:01:27,789 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:01:27,791 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:01:27,793 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 09:04:10,040 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:04:10,041 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:04:10,043 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:04:10,045 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:11:57,222 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:11:57,224 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:11:57,225 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:11:57,226 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 09:13:35,987 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:13:35,988 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:13:35,989 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:13:35,990 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 09:16:03,450 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:16:03,451 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:16:03,452 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:16:03,454 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:17:37,488 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:17:37,518 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:17:37,519 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:17:37,521 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:17:38,631 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:17:38,632 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:17:38,633 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:17:38,634 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:17:39,686 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:17:39,688 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:17:39,690 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:17:39,693 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:21:49,619 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:21:49,620 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:21:49,621 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:21:49,623 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:22:29,834 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:22:29,835 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:22:29,837 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:22:29,839 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:33:34,143 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:33:34,145 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:33:34,146 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:33:34,148 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:34:51,643 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:34:51,644 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:34:51,645 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:34:51,648 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:36:58,226 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:36:58,227 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:36:58,228 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:36:58,230 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:37:11,783 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:37:11,784 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:37:11,785 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:37:11,787 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:39:33,035 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:39:33,036 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:39:33,037 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:39:33,040 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:43:28,723 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:43:28,724 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:43:28,725 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:43:28,728 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:43:32,945 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:43:32,946 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:43:32,947 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:43:32,950 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 09:45:42,753 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:45:42,753 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 09:45:42,756 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 09:45:42,758 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:13:29,292 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:13:29,293 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:13:29,294 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:13:29,296 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:13:43,656 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:13:43,657 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:13:43,658 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:13:43,660 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:15:44,708 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:15:44,709 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:15:44,710 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:15:44,711 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:18:00,036 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:18:00,037 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:18:00,038 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:18:00,040 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:18:01,061 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:18:01,062 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:18:01,063 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:18:01,067 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:21:16,671 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:21:16,672 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-19 10:21:16,673 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:21:16,674 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-09-19 10:21:17,727 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:21:17,728 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:21:17,729 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:21:17,731 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:21:37,193 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:21:37,194 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:21:37,197 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:21:37,200 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:27:40,614 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:27:40,615 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:27:40,616 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:27:40,618 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:27:52,622 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:27:52,623 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:27:52,624 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:27:52,626 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:30:29,833 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:30:29,834 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:30:29,835 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:30:29,837 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:31:37,919 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:31:37,920 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:31:37,921 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:31:37,923 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:31:54,487 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:31:54,493 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:31:54,494 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:31:54,496 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:32:03,229 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:32:03,229 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:32:03,230 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:32:03,232 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-09-19 10:36:38,737 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:36:38,739 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:36:38,741 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:36:38,743 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 10:37:50,690 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:37:50,692 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:37:50,694 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:37:50,696 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 10:57:03,611 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:57:03,612 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:57:03,613 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:57:03,614 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 10:57:48,772 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:57:48,773 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:57:48,774 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:57:48,775 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 10:58:06,643 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:58:06,644 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:58:06,646 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:58:06,648 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 10:58:15,249 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:58:15,250 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:58:15,251 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:58:15,252 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 10:59:01,754 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:59:01,755 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 10:59:01,756 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 10:59:01,757 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-09-19 11:00:51,939 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 11:00:51,940 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bestrada\Videos\BS_Connect_QA\BelatrixConnect_AutomationFramework\BelatrixConnect_AutomationDSL\src\main\resources
+2016-09-19 11:00:51,941 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-19 11:00:51,945 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources

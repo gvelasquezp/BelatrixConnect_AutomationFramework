@@ -1,0 +1,55 @@
+package com.belatrix.connect.steps;
+
+import org.testng.annotations.AfterClass;
+import com.belatrix.connect.framework.ParentScenario;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginScenariesSteps {
+
+	@Given("^I open the app$")
+	public void i_open_the_app() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+
+	@When("^I login with this \"(.*?)\" and this \"(.*?)\" values$")
+	public void i_login_with_this_and_this_values(String arg1, String arg2)
+			throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+
+	@Then("^I see my user profile page$")
+	public void i_see_my_user_profile_page() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+
+	@When("^I logout of the App$")
+	public void i_logout_of_the_App() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+
+	@And("^I confirm the message displayed$")
+	public void i_confirm_the_message_displayed() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+
+	@Then("^App login should appears$")
+	public void app_login_should_appears() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+
+	@Then("^I see an error message for invalid login$")
+	public void i_see_an_error_message_for_invalid_login() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		
+	}
+
+}

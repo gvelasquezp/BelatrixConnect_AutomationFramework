@@ -1,0 +1,5 @@
+package com.belatrix.connect.page.object;
+
+public class LoginPage {
+
+}
