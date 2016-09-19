@@ -13,6 +13,8 @@ public class LoginPage extends ParentPage {
 
 	By TITLE_PAGE = By
 			.xpath("//android.widget.TextView[@text='Belatrix Connect']");
+	By LOGIN_PAGE = By.
+			id("com.belatrixsf.connect:id/login");
 	By TXT_USER_NAME = By.
 			id("com.belatrixsf.connect:id/username");
 	By TXT_PASSWORD = By.
@@ -60,5 +62,13 @@ public class LoginPage extends ParentPage {
 	{
 		Assert.assertEquals(TITLE_PAGE, null, "Page Login is not found");
 	} 
+	
+	/**
+	  * This a method is for wait for a login page load
+	 **/
+	public void loadPageSuccessfully()
+	{
+		handlingWaitsToElement(LOGIN_PAGE);
+	}
 
 }

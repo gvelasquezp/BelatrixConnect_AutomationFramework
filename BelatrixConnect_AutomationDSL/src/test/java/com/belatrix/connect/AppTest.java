@@ -6,16 +6,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 /**
  * Example of Automation.
  */
-
-@CucumberOptions(
-		
-		plugin = { 
-		"html:target/cucumber-html-reports",
+@CucumberOptions(plugin = { "html:target/cucumber-html-reports",
 		"json:target/cucumber-html-reports/cucumber.json",
-		"junit:target/surefire-reports/cucumber-junit.xml" }, 
-		features = "src/test/resources/features", 
-		tags = "@LoginTest", 
-		glue = {"com.belatrix.connect.steps"})
+		"junit:target/surefire-reports/cucumber-junit.xml" }, features = "src/test/resources/features/", tags = "@LoginTest", glue = { "com.belatrix.connect.steps" })
 
 public class AppTest extends AbstractTestNGCucumberTests {
 

@@ -8,11 +8,13 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class LoginScenariesSteps extends ParentScenario{
-
+	
 	@Given("^I open the app$")
 	public void i_open_the_app() throws Throwable {
 		System.out.println("I open the app");
 		startAndroid();
+		loginPage.loadPageSuccessfully();
+		System.out.println("The App is load successfully");
 	}
 
 	@When("^I login with this \"(.*?)\" and this \"(.*?)\" values$")
@@ -25,7 +27,7 @@ public class LoginScenariesSteps extends ParentScenario{
 	@Then("^I see my user profile page$")
 	public void i_see_my_user_profile_page() throws Throwable {
 		System.out.println("Assert Profile page should show here");
-		
+		mainProfilePage.loadPageSucessfully();
 	}
 
 	@When("^I logout of the App$")
@@ -36,12 +38,14 @@ public class LoginScenariesSteps extends ParentScenario{
 
 	@And("^I confirm the message displayed$")
 	public void i_confirm_the_message_displayed() throws Throwable {
+		alertMessageTwoOptions.waitForAlertMessage();
 		alertMessageTwoOptions.answerYes();
 	}
 
 	@Then("^App login should appears$")
 	public void app_login_should_appears() throws Throwable {
 		System.out.println("Assert login page should show here");
+		loginPage.loadPageSuccessfully();
 	}
 
 	@Then("^I see an error message for invalid login$")
@@ -50,7 +54,7 @@ public class LoginScenariesSteps extends ParentScenario{
 	}
 	
 	@AfterClass
-	public void after() {
+	public void afterClass() {
 		closeDriver();
 	}
 

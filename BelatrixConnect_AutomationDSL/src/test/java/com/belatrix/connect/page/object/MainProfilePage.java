@@ -19,9 +19,20 @@ public class MainProfilePage extends ParentPage{
 	By BTN_EDIT = By.
 			id("com.belatrixsf.connect:id/action_edit_profile");
 	
+	/**
+	  * This a method is for do click to open the SideBar
+	 **/
 	public void openMenuSideBar() 
 	{
 		click(BTN_SIDEBAR);
+	}
+	
+	/**
+	  * This a method is for wait to load the Main Profile Page
+	 **/
+	public void loadPageSucessfully()
+	{
+		handlingWaitsToElement(CONTAINER_PAGE);
 	}
 
 }

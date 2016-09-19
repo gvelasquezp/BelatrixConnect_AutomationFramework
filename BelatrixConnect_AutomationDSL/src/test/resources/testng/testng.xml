@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test runner" verbose="1" thread-count="2" parallel="tests">
+<suite name="Test runner" verbose="1" thread-count="1" parallel="false">
 
 	<tests>
 		<test name="TestAndroid">

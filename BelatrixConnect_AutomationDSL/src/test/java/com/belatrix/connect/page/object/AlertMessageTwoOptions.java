@@ -19,6 +19,18 @@ public class AlertMessageTwoOptions  extends ParentPage{
 	By NO_OPTION = By.
 			id("android:id/button2");
 	
+	
+	/**
+	  * This a method is for wait load the message alert
+	 **/
+	public void waitForAlertMessage()
+	{
+		handlingWaitsToElement(CONTENT_MESSAGE);
+	}
+	
+	/**
+	  * This a method is for do click in Yes option
+	 **/
 	public void answerYes()
 	{
 		click(YES_OPTION);
