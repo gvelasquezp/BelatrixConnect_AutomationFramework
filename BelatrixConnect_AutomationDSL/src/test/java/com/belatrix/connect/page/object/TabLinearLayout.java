@@ -10,8 +10,6 @@ public class TabLinearLayout extends ParentPage {
 		super(driver);
 	}
 	
-	By TITLE_PAGE = By
-			.xpath("//android.widget.TextView[@text='Belatrix Connect']");
 	By TAB_ACCOUNT = By.
 			id("com.belatrixsf.connect:id/username");
 	By TAB_RANKING = By.
@@ -52,6 +50,4 @@ public class TabLinearLayout extends ParentPage {
 	{
 		click(TAB_TOPTAGS);
 	}
-
-
 }

@@ -13,18 +13,5 @@
 				</packages>
 			</classes>
 		</test>
-
-<!-- 		<test name="DEVAND17"> -->
-<!-- 			<parameters> -->
-<!-- 				<parameter name="url" value="http://10.10.11.99:34723/wd/hub" /> -->
-<!-- 			</parameters> -->
-
-<!-- 			<classes> -->
-<!-- 				<packages> -->
-<!-- 					<package name="com.testng_appium_cucumber.*" /> -->
-<!-- 				</packages> -->
-<!-- 			</classes> -->
-<!-- 		</test> -->
-
 	</tests>
 </suite>

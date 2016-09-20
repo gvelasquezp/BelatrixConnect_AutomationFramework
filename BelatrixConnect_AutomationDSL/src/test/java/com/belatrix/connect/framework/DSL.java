@@ -14,14 +14,15 @@ public abstract class DSL {
 	}
 
 	/**
-	 * @param locator
+	 * This method use for send click to Element
+	 * @param By locator
 	 **/
 	public void click(By locator) {
 		driver.findElement(locator).click();
 	}
 	
 	/**
-	  * This a method for send text to Web Element
+	  * This a method for send text to Element
 	  * @param By locator
 	  * @param String textToSend
 	 **/
@@ -53,7 +54,4 @@ public abstract class DSL {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
-	
-	
-
 }

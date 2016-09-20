@@ -10,8 +10,8 @@ public class AlertMessageTwoOptions  extends ParentPage{
 		super(driver);
 	}
 	
-	By CONTENT_MESSAGE = By
-			.id("android:id/content");
+	By CONTEINER_MESSAGE = By.
+			id("android:id/content");
 	By MESSAGE = By.
 			id("android:id/message");
 	By YES_OPTION = By.
@@ -19,13 +19,13 @@ public class AlertMessageTwoOptions  extends ParentPage{
 	By NO_OPTION = By.
 			id("android:id/button2");
 	
-	
 	/**
 	  * This a method is for wait load the message alert
 	 **/
 	public void waitForAlertMessage()
 	{
-		handlingWaitsToElement(CONTENT_MESSAGE);
+		handlingWaitsToElement(CONTEINER_MESSAGE);
+		handlingWaitsToElement(MESSAGE);
 	}
 	
 	/**
@@ -35,5 +35,4 @@ public class AlertMessageTwoOptions  extends ParentPage{
 	{
 		click(YES_OPTION);
 	}
-
 }

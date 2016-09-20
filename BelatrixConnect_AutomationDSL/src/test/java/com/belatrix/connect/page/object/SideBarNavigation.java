@@ -1,6 +1,5 @@
 package com.belatrix.connect.page.object;
 
-import java.net.MalformedURLException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.belatrix.connect.framework.ParentPage;
@@ -30,11 +29,10 @@ public class SideBarNavigation  extends ParentPage {
 	By LOGOUT_OPTION = By.
 			id("com.belatrixsf.connect:id/menu_logout");
 	
-	
 	/**
 	  * This a method let me logout of my current session
 	 **/
-	public void logOutUserSesion() throws MalformedURLException
+	public void logOutUserSession()
 	{
 		click(LOGOUT_OPTION);
 	}
@@ -46,5 +44,4 @@ public class SideBarNavigation  extends ParentPage {
 	{
 		click(CONTACTS_OPTION);
 	}
-
 }

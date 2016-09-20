@@ -2,7 +2,6 @@ package com.belatrix.connect.page.object;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import com.belatrix.connect.framework.ParentPage;
 
 public class LoginPage extends ParentPage {
@@ -11,9 +10,7 @@ public class LoginPage extends ParentPage {
 		super(driver);
 	}
 
-	By TITLE_PAGE = By
-			.xpath("//android.widget.TextView[@text='Belatrix Connect']");
-	By LOGIN_PAGE = By.
+	By CONTAINER_PAGE = By.
 			id("com.belatrixsf.connect:id/login");
 	By TXT_USER_NAME = By.
 			id("com.belatrixsf.connect:id/username");
@@ -31,7 +28,7 @@ public class LoginPage extends ParentPage {
 	  * @param String UserName
 	  * @param String password
 	 **/
-	public void loginOnApp(String userName, String password) throws Throwable 
+	public void loginOnApp(String userName, String password)
 	{
 		sendKeys(TXT_USER_NAME, userName);
 		sendKeys(TXT_PASSWORD, password);
@@ -48,27 +45,10 @@ public class LoginPage extends ParentPage {
 	}
 	
 	/**
-	  * This a method is for Assert if the Page login was initiate successfully
-	 **/
-	public void assertExistLoginPage()
-	{
-		Assert.assertNotSame(TITLE_PAGE, null, "Page Login is found");
-	} 
-	
-	/**
-	  * This a method is for Assert if the Page login was initiate badly
-	 **/
-	public void assertNotExistLoginPage()
-	{
-		Assert.assertEquals(TITLE_PAGE, null, "Page Login is not found");
-	} 
-	
-	/**
 	  * This a method is for wait for a login page load
 	 **/
 	public void loadPageSuccessfully()
 	{
-		handlingWaitsToElement(LOGIN_PAGE);
+		handlingWaitsToElement(CONTAINER_PAGE);
 	}
-
 }
