@@ -32,4 +32,16 @@ public class TabRankingPage extends ParentPage{
 	{
 		click(ALL_TIME_RANKING);
 	}
+	
+	public void loadPageSuccessfully()
+	{
+		handlingWaitsToElement(CONTAINER_PAGE);
+		handlingWaitsToElement(LAST_MOTH_RANKING);
+		handlingWaitsToElement(ALL_TIME_RANKING);
+	}
+	
+	public void checkResultOfRankList()
+	{
+		handlingWaitsToElement(TXT_CONTACT_FULLNAME);
+	}
 }

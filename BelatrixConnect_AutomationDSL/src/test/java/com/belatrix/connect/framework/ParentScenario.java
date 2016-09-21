@@ -20,16 +20,16 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class ParentScenario {
 	private WebDriver driver;
-	protected LoginPage loginPage;
-	protected TabLinearLayout tabLinearLayout;
-	protected SideBarNavigation sideBarNavigation;
-	protected AlertMessageTwoOptions alertMessageTwoOptions;
-	protected TabProfilePage tabProfilePage;
-	protected AlertMessageConfirmation alertMessageConfirmation;
-	protected AlertErrorMessage alertErrorMessage;
-	protected ForgotPasswordPage forgotPasswordPage;
-	protected TabRankingPage tabRankingPage;
-	protected EditProfilePage editProfilePage;
+	protected static LoginPage loginPage;
+	protected static TabLinearLayout tabLinearLayout;
+	protected static SideBarNavigation sideBarNavigation;
+	protected static AlertMessageTwoOptions alertMessageTwoOptions;
+	protected static TabProfilePage tabProfilePage;
+	protected static AlertMessageConfirmation alertMessageConfirmation;
+	protected static AlertErrorMessage alertErrorMessage;
+	protected static ForgotPasswordPage forgotPasswordPage;
+	protected static TabRankingPage tabRankingPage;
+	protected static EditProfilePage editProfilePage;
 
 	public void startAndroid() {
 		String url = "http://127.0.0.1:4723/wd/hub";
@@ -43,6 +43,7 @@ public class ParentScenario {
 		} catch (Exception e) {
 			System.out.println("Exepcion al momento de generar el Driver" + e);
 		}
+		
 		loginPage = new LoginPage(driver);
 		tabLinearLayout = new TabLinearLayout(driver);
 		sideBarNavigation = new SideBarNavigation(driver);

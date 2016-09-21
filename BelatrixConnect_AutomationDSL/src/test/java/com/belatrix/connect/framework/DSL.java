@@ -47,6 +47,15 @@ public abstract class DSL {
 	}
 	
 	/**
+	  * This a method clear the Text value of any Component
+	  * @param By locator
+	 **/
+	public void clearTextValue(By locator)
+	{
+		driver.findElement(locator).clear();
+	}
+	
+	/**
 	  * This a method wait for a component
 	  * @param By locator
 	 **/

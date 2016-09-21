@@ -1,7 +1,7 @@
 package com.belatrix.connect.steps;
 
-import com.belatrix.connect.framework.ParentScenario;
 import org.testng.annotations.AfterClass;
+import com.belatrix.connect.framework.ParentScenario;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
