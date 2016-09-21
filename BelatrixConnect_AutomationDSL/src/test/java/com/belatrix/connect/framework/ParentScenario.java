@@ -1,15 +1,18 @@
 package com.belatrix.connect.framework;
 
 import java.net.URL;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import com.belatrix.connect.page.object.AlertErrorMessage;
 import com.belatrix.connect.page.object.AlertMessageConfirmation;
 import com.belatrix.connect.page.object.AlertMessageTwoOptions;
+import com.belatrix.connect.page.object.ContactProfilePage;
 import com.belatrix.connect.page.object.EditProfilePage;
 import com.belatrix.connect.page.object.ForgotPasswordPage;
 import com.belatrix.connect.page.object.LoginPage;
+import com.belatrix.connect.page.object.SelectAnUserPage;
 import com.belatrix.connect.page.object.TabProfilePage;
 import com.belatrix.connect.page.object.SideBarNavigation;
 import com.belatrix.connect.page.object.TabLinearLayout;
@@ -30,6 +33,8 @@ public class ParentScenario {
 	protected static ForgotPasswordPage forgotPasswordPage;
 	protected static TabRankingPage tabRankingPage;
 	protected static EditProfilePage editProfilePage;
+	protected static SelectAnUserPage selectAnUserPage;
+	protected static ContactProfilePage contactProfilePage;
 
 	public void startAndroid() {
 		String url = "http://127.0.0.1:4723/wd/hub";
@@ -54,6 +59,8 @@ public class ParentScenario {
 		forgotPasswordPage = new ForgotPasswordPage(driver);
 		tabRankingPage = new TabRankingPage(driver);
 		editProfilePage = new EditProfilePage(driver);
+		selectAnUserPage = new SelectAnUserPage(driver);
+		contactProfilePage = new ContactProfilePage(driver);
 	}
 
 	protected void navigateTo(String url) {
