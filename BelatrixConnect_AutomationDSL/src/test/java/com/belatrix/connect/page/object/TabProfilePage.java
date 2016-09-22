@@ -53,6 +53,14 @@ public class TabProfilePage extends ParentPage{
 	}
 	
 	/**
+	  * This a method is for wait the sideBar Option
+	 **/
+	public void loadSideBarButtonOption()
+	{
+		handlingWaitsToElement(BTN_SIDEBAR);
+	}
+	
+	/**
 	  * This a method is for do click on Edit Profile
 	 **/
 	public void openEditProfile()

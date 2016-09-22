@@ -12,8 +12,6 @@ public class TabRankingPage extends ParentPage{
 	
 	By CONTAINER_PAGE = By.
 			id("com.belatrixsf.connect:id/fragment_ranking_container");
-	By BTN_SIDEBAR = By.
-			xpath("//android.widget.ImageButton[@index='0']");
 	By TXT_CONTACT_FULLNAME = By.
 			id("com.belatrixsf.connect:id/contact_full_name");
 	By CURRENT_MONTH_RANKING = By.
@@ -23,16 +21,25 @@ public class TabRankingPage extends ParentPage{
 	By ALL_TIME_RANKING = By.
 			xpath("//android.widget.TextView[@text='All Time']");
 	
+	/**
+	  * This a method is for do a click on Last month rank option
+	 **/
 	public void viewLastMonthRanking()
 	{
 		click(LAST_MOTH_RANKING);
 	}
 	
+	/**
+	  * This a method is for do a click on view all rank option
+	 **/
 	public void viewAllTimeRanking()
 	{
 		click(ALL_TIME_RANKING);
 	}
 	
+	/**
+	  * This a method is for wait a page to successfully
+	 **/
 	public void loadPageSuccessfully()
 	{
 		handlingWaitsToElement(CONTAINER_PAGE);
@@ -40,6 +47,9 @@ public class TabRankingPage extends ParentPage{
 		handlingWaitsToElement(ALL_TIME_RANKING);
 	}
 	
+	/**
+	  * This a method is for wait a elements of the rank list of contacts
+	 **/
 	public void checkResultOfRankList()
 	{
 		handlingWaitsToElement(TXT_CONTACT_FULLNAME);

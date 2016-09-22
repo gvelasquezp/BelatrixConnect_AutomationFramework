@@ -1,7 +1,10 @@
 package com.belatrix.connect.page.object;
 
+import junit.framework.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
 import com.belatrix.connect.framework.ParentPage;
 
 public class ContactProfilePage extends ParentPage{
@@ -55,5 +58,16 @@ public class ContactProfilePage extends ParentPage{
 	public void clickRecommend()
 	{
 		click(BTN_RECOMMEND);
+	}
+	
+	/**
+	  * This a method is for check the user profile page is correct
+	  * @param contactName
+	 **/
+	public void checkUserNameOfContactPage(String contactName)
+	{
+		loadPageSucessfully();
+		Assert.assertEquals("The user profile page doesnt correct", 
+				contactName, getTextValue(PROFILE_NAME));
 	}
 }

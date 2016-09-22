@@ -101,7 +101,7 @@ public class SelectAnUserPage extends ParentPage{
 	 **/
 	public void selectContactAfterSearch(String contactName)
 	{
-		handlingWaitsToElement(SELECT_A_CONTACT);
+		loadElemensAfterSearch();
 		click(SELECT_A_CONTACT);
 	}
 }

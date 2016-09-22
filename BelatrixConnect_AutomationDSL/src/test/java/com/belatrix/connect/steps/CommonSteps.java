@@ -25,6 +25,7 @@ public class CommonSteps extends ParentScenario{
 	
 	@And("^I finally Logout of App$")
 	public void i_finally_Logout_of_App() {
+		tabProfilePage.loadSideBarButtonOption();
 	    tabProfilePage.openMenuSideBar();
 	    System.out.println("I click on Side Bar LogOut Session");
 	    sideBarNavigation.logOutUserSession();
