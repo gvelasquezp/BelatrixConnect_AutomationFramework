@@ -16,6 +16,7 @@ import com.belatrix.connect.page.object.TabLinearLayout;
 import com.belatrix.connect.page.object.TabRankingPage;
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class ParentScenario {
@@ -40,6 +41,28 @@ public class ParentScenario {
 
 		try {
 			driver = new AndroidDriver<WebElement>(new URL(url), cap);
+		} catch (Exception e) {
+			System.out.println("Exepcion al momento de generar el Driver" + e);
+		}
+		loginPage = new LoginPage(driver);
+		tabLinearLayout = new TabLinearLayout(driver);
+		sideBarNavigation = new SideBarNavigation(driver);
+		alertMessageTwoOptions = new AlertMessageTwoOptions(driver);
+		tabProfilePage = new TabProfilePage(driver);
+		alertMessageConfirmation = new AlertMessageConfirmation(driver);
+		alertErrorMessage = new AlertErrorMessage(driver);
+		forgotPasswordPage = new ForgotPasswordPage(driver);
+		tabRankingPage = new TabRankingPage(driver);
+		editProfilePage = new EditProfilePage(driver);
+	}
+	
+	public void startiOS() {
+		String url = "http://127.0.0.1:4723/wd/hub";
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "CB5A28Q2LU");
+
+		try {
+			driver = new IOSDriver<WebElement>(new URL(url), cap);
 		} catch (Exception e) {
 			System.out.println("Exepcion al momento de generar el Driver" + e);
 		}

@@ -33,6 +33,17 @@ public class TabProfilePage extends ParentPage{
 	By BTN_MORE = By.
 			id("com.belatrixsf.connect:id/start_recommendation");
 	
+	By CONTAINER_PAGE_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAImage[1]");
+	By BTN_MORE_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[5]");
+	By BTN_SETTINGS_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]");
+	By BTN_LOGOUT_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]");
+	By PROFILE_NAME_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAStaticText[2]");
+	
 	/**
 	  * This a method is for do click to open the SideBar
 	 **/
@@ -47,5 +58,17 @@ public class TabProfilePage extends ParentPage{
 	public void loadPageSucessfully()
 	{
 		handlingWaitsToElement(CONTAINER_PAGE);
+	}
+	
+	public void loadPageSucessfully_iOS()
+	{
+		handlingWaitsToElement(PROFILE_NAME_iOS);
+	}
+	
+	public void logOutUserSession_iOS(){
+		click(BTN_MORE_iOS);
+		click(BTN_SETTINGS_iOS);
+		click(BTN_LOGOUT_iOS);
+		
 	}
 }

@@ -9,6 +9,59 @@ import cucumber.api.java.en.When;
 
 public class LoginScenariesSteps extends ParentScenario{
 	
+	//iOS Methods
+	
+	@Given("^I open the app on iOS$")
+	public void i_open_the_app_on_iOS() {
+		System.out.println("Opening the app on iOS Device");
+		startiOS();
+		loginPage.loadPageSuccessfully_iOS();
+		System.out.println("The App is loaded successfully");
+	}
+	
+	@And("^I login with this \"(.*?)\" and this \"(.*?)\" values on iOS$")
+	public void i_login_with_this_and_this_values_on_iOS(String username, String password) {
+		System.out.println("I login with the stored credentials");
+		loginPage.loginOnApp_iOS(username, password);
+		
+	}
+	
+	@Then("^I see my user profile page on iOS$")
+	public void i_see_my_user_profile_page_on_iOS() {
+	    
+		tabProfilePage.loadPageSucessfully_iOS();
+		System.out.println("Assert Profile page should show here");
+		
+	}
+	
+	@And("^I logout of the App on iOS$")
+	public void i_logout_of_the_App_on_iOS() {
+	    
+		tabProfilePage.logOutUserSession_iOS();
+		System.out.println("I click on Side Bar LogOut Session");
+		
+	}
+	
+	@When("^I confirm the message displayed on iOS$")
+	public void i_confirm_the_message_displayed_on_iOS() {
+	    
+		alertMessageTwoOptions.waitForAlertMessage_iOS();
+		System.out.println("The confirmation message is displayed");
+		alertMessageTwoOptions.answerAccept_iOS();
+		System.out.println("I confirm the logout session");
+		
+	}
+	
+	@And("^App login should appears on iOS$")
+	public void app_login_should_appears_on_iOS() {
+	    
+		loginPage.loadPageSuccessfully_iOS();
+		System.out.println("The User is logout successfully");
+		closeDriver();
+	}
+	
+	//Android Methods
+	
 	@Given("^I open the app$")
 	public void i_open_the_app() {
 		System.out.println("I open the app");

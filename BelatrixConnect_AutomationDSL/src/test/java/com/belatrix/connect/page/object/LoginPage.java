@@ -22,6 +22,21 @@ public class LoginPage extends ParentPage {
 			id("com.belatrixsf.connect:id/forgot_password");
 	By HLNK_NEW_USER = By.
 			id("com.belatrixsf.connect:id/sign_up");
+	
+	By CONTAINER_PAGE_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAImage[1]");
+	By TXT_USER_NAME_iOS = By.
+			xpath(" //UIAApplication[1]/UIAWindow[1]/UIATextField[1]");
+	By TXT_PASSWORD_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIASecureTextField[1]");
+	By BTN_LOGIN_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAButton[1]");
+	By BTN_LOGIN_AS_GUEST_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAButton[2]");
+	By HLNK_FORGOT_PASSWORD_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAButton[4]");
+	By HLNK_NEW_USER_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAButton[3]");
 
 	/**
 	  * This a method is for log In APP
@@ -34,6 +49,13 @@ public class LoginPage extends ParentPage {
 		sendKeys(TXT_PASSWORD, password);
 		clickAndroidBackButton();
 		click(BTN_LOGIN);
+	}
+	
+	public void loginOnApp_iOS(String userName, String password)
+	{
+		sendKeys(TXT_USER_NAME_iOS, userName);
+		sendKeys(TXT_PASSWORD_iOS, password);
+		click(BTN_LOGIN_iOS);
 	}
 	
 	/**
@@ -50,5 +72,10 @@ public class LoginPage extends ParentPage {
 	public void loadPageSuccessfully()
 	{
 		handlingWaitsToElement(CONTAINER_PAGE);
+	}
+	
+	public void loadPageSuccessfully_iOS()
+	{
+		handlingWaitsToElement(CONTAINER_PAGE_iOS);
 	}
 }
