@@ -60,11 +60,17 @@ public class TabProfilePage extends ParentPage{
 		handlingWaitsToElement(CONTAINER_PAGE);
 	}
 	
+	/**
+	  * This method is for wait to load the Main Profile Page on iOS Devices
+	 **/
 	public void loadPageSucessfully_iOS()
 	{
 		handlingWaitsToElement(PROFILE_NAME_iOS);
 	}
 	
+	/**
+	  * This method is for Log out the User session on iOS Devices
+	 **/
 	public void logOutUserSession_iOS(){
 		click(BTN_MORE_iOS);
 		click(BTN_SETTINGS_iOS);

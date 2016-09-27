@@ -1,7 +1,7 @@
 package com.belatrix.connect.steps;
 
 import com.belatrix.connect.framework.ParentScenario;
-import org.testng.annotations.AfterClass;
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -57,10 +57,37 @@ public class LoginScenariesSteps extends ParentScenario{
 	    
 		loginPage.loadPageSuccessfully_iOS();
 		System.out.println("The User is logout successfully");
-		closeDriver();
+		
 	}
 	
-	//Android Methods
+	@Then("^I see an error message for invalid login on iOS$")
+	public void i_see_an_error_message_for_invalid_login_on_iOS() {
+		alertErrorMessage.waitForErrorMessage_iOS();
+		System.out.println("Assert alert message invalid should show here");
+	}
+	
+	@And ("^I go to Forgot Password option on iOS$")
+	public void I_go_to_Forgot_Password_option_on_iOS() {
+		System.out.println("I click in Forgot Password option");
+		loginPage.forgotPasswordOption_iOS();
+	}
+	
+	@When ("^I request my New Passowrd after input my Email \"(.*?)\" on iOS$")
+	public void I_request_my_New_Passowrd_after_input_my_Email_on_iOS(String Email) {
+		System.out.println("I input my Email to Request the new password");
+		forgotPasswordPage.requestNewPassword_iOS(Email);
+	}
+	
+	@And ("^I confirm the message of password Recovery displayed on iOS$")
+	public void I_confirm_the_message_of_password_Recovery_displayed_on_iOS() {
+		System.out.println("I confirm the alert message");
+		alertMessageConfirmation.aceptConfirmationMessage_iOS();
+	}
+	
+	
+	///////////////////////////////////////
+	//////////Android Methods//////////////
+	///////////////////////////////////////
 	
 	@Given("^I open the app$")
 	public void i_open_the_app() {
@@ -133,7 +160,7 @@ public class LoginScenariesSteps extends ParentScenario{
 		alertMessageConfirmation.aceptConfirmationMessage();
 	}
 	
-	@AfterClass
+	@After
 	public void afterClass() {
 		closeDriver();
 	}

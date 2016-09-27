@@ -51,6 +51,11 @@ public class LoginPage extends ParentPage {
 		click(BTN_LOGIN);
 	}
 	
+	/**
+	  * This method is for log In APP on iOS Devices
+	  * @param String UserName
+	  * @param String password
+	 **/
 	public void loginOnApp_iOS(String userName, String password)
 	{
 		sendKeys(TXT_USER_NAME_iOS, userName);
@@ -67,6 +72,14 @@ public class LoginPage extends ParentPage {
 	}
 	
 	/**
+	  * This method is for go to forgot Password on iOS Devices
+	 **/
+	public void forgotPasswordOption_iOS()
+	{
+		click(HLNK_FORGOT_PASSWORD_iOS);
+	}
+	
+	/**
 	  * This a method is for wait for a login page load
 	 **/
 	public void loadPageSuccessfully()
@@ -74,6 +87,9 @@ public class LoginPage extends ParentPage {
 		handlingWaitsToElement(CONTAINER_PAGE);
 	}
 	
+	/**
+	  * This method is for wait for a login page load on iOS Devices
+	 **/
 	public void loadPageSuccessfully_iOS()
 	{
 		handlingWaitsToElement(CONTAINER_PAGE_iOS);

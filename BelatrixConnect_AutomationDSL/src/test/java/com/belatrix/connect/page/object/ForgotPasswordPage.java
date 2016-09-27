@@ -18,6 +18,15 @@ public class ForgotPasswordPage extends ParentPage{
 			id("com.belatrixsf.connect:id/email");
 	By BTN_REQUEST_NEW_PASSWORD = By.
 			id("com.belatrixsf.connect:id/new_password");
+	
+	By TITLE_PAGE_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAStaticText[1]");
+	By IMAGE_PAGE_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAImage[1]");
+	By TXT_EMAIL_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIATextField[1]");
+	By BTN_REQUEST_NEW_PASSWORD_iOS = By.
+			xpath("//UIAApplication[1]/UIAWindow[1]/UIAButton[2]");
 
 	/**
 	  * This a method is for a request a new password 
@@ -29,5 +38,16 @@ public class ForgotPasswordPage extends ParentPage{
 		sendKeys(TXT_EMAIL, Email);
 		clickAndroidBackButton();
 		click(BTN_REQUEST_NEW_PASSWORD);		
+	}
+	
+	/**
+	  * This method is for a request a new password on iOS Devices
+	  * Input the email then click in a button to request a new password
+	  * @param String Email
+	 **/
+	public void requestNewPassword_iOS(String Email)
+	{
+		sendKeys(TXT_EMAIL_iOS, Email);
+		click(BTN_REQUEST_NEW_PASSWORD_iOS);		
 	}
 }

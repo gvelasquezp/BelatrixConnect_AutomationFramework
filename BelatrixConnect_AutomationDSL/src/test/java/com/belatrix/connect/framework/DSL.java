@@ -55,7 +55,4 @@ public abstract class DSL {
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
 	
-	public void closeDriver(){
-		driver.quit();
-	}
 }

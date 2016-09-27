@@ -1,4 +1,4 @@
-@iOS @LoginTest1
+@iOS @iOSLoginTest1
 Feature: Login Scenarios
 
 	#Scenario 1
