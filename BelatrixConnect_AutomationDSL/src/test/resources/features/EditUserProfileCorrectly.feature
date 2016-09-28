@@ -14,6 +14,6 @@ Feature: Edit My Profile
 			And I finally Logout of App
 
 	Examples:
-	|  username  | password | firstName  | lastName   | skypeId      |location    | 
-	| gvelasquez | belatrix | GuillermoO | VelasquezZ | guille-glpx1 |USA         |
-	| gvelasquez | belatrix | Guillermo  | Velasquez  | guille-glpx  |Lima        | 
+	|  username  | password | firstName  | lastName   | skypeId         |location    | 
+	| rrashuaman | belatrix | Raull      | Rashuamann | raul.rashuaman1 |USA         |
+	| rrashuaman | belatrix | Raul       | Rashuaman  | raul.rashuaman  |Lima        | 
