@@ -13,4 +13,4 @@ Feature: View the Last Month Ranking
 
 	Examples:
 	|  username  | password |
-	| gvelasquez | belatrix |
+	| rrashuaman | belatrix |

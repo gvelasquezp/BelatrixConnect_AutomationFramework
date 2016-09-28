@@ -12,4 +12,4 @@ Feature: View the Current Month Ranking
 		
 	Examples:
 	|  username  | password |
-	| gvelasquez | belatrix |
+	| rrashuaman | belatrix |

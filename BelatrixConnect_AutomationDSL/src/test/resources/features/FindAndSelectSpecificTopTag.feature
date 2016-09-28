@@ -16,4 +16,4 @@ Feature: Like a User i want find and select a Specific Top Tag
 	Examples:
 
 	|  username  | password | tagName    | 
-	| gvelasquez | belatrix | ANDROID    |
+	| rrashuaman | belatrix | ANDROID    |

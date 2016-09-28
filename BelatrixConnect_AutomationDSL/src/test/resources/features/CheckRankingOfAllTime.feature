@@ -13,4 +13,4 @@ Feature: View the Ranking of all the time
 		
 	Examples:
 	|  username  | password |
-	| gvelasquez | belatrix |
+	| rrashuaman | belatrix |

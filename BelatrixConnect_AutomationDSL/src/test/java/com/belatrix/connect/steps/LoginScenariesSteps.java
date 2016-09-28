@@ -77,7 +77,7 @@ public class LoginScenariesSteps extends ParentScenario{
 	@And ("^I confirm the message of password Recovery displayed$")
 	public void I_confirm_the_message_of_password_Recovery_displayed() {
 		System.out.println("I confirm the alert message");
-		alertMessageConfirmation.aceptConfirmationMessage();
+		alertMessageConfirmation.aceptConfirmationAlertDialog();
 	}
 	
 	@AfterClass

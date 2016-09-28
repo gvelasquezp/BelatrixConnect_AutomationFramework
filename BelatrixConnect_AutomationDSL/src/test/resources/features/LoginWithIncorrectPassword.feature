@@ -10,4 +10,3 @@ Feature: Login Scenarios
 	Examples:
 	|   username  | password  |
 	| gvelasques  | belatrix1 |
-
