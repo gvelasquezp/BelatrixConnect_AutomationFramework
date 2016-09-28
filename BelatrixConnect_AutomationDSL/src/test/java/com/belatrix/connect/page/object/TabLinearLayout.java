@@ -11,13 +11,13 @@ public class TabLinearLayout extends ParentPage {
 	}
 	
 	By TAB_ACCOUNT = By.
-			id("com.belatrixsf.connect:id/username");
+			xpath("//android.widget.TextView[@text='Account']");
 	By TAB_RANKING = By.
-			id("com.belatrixsf.connect:id/password");
+			xpath("//android.widget.TextView[@text='Ranking']");
 	By TAB_ACTIVITY = By.
-			id("com.belatrixsf.connect:id/log_in");
+			xpath("//android.widget.TextView[@text='Activity']");
 	By TAB_TOPTAGS = By.
-			id("com.belatrixsf.connect:id/forgot_password");
+			xpath("//android.widget.TextView[@text='Top Tags']");
 
 	/**
 	  * This a method is for click on Account Tab

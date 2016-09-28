@@ -47,11 +47,50 @@ public abstract class DSL {
 	}
 	
 	/**
+	  * This a method clear the Text value of any Component
+	  * @param By locator
+	 **/
+	public void clearTextValue(By locator)
+	{
+		driver.findElement(locator).clear();
+	}
+	
+	/**
 	  * This a method wait for a component
 	  * @param By locator
 	 **/
-	public void handlingWaitsToElement(By locator){
+	public void handlingWaitsToElement(By locator)
+	{
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+	}
+	
+	/**
+	  * This a method wait for a component with any Variable Text
+	  * this method is only for locator type xpath
+	  * @param By locator
+	  * @param String Text
+	 **/
+	public void handlingWaitsToNewElementByText(By locator, String textValue)
+	{
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		By newLocator = By.xpath(locator.toString().replaceAll("(By.xpath: )|(\\[@text.*?\\])", "")
+				+ "[@text='"+textValue+"']");
+		wait.until(ExpectedConditions.presenceOfElementLocated(newLocator));
+	}
+	
+	/**
+	  * This a method for do a click on one element with a specific text
+	  * this method contain a handling wait by new element
+	  * this method is only for locator type xpath
+	  * @param By locator
+	  * @param String textValue
+	 **/
+	public void clickElementByTextValue(By locator, String textValue)
+	{
+		By newLocator = By.xpath(locator.toString().replaceAll("(By.xpath: )|(\\[@text.*?\\])", "")
+				+ "[@text='"+textValue+"']");
+		handlingWaitsToElement(newLocator);
+		click(newLocator);
 	}
 }

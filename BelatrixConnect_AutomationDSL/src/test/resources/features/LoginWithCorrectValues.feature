@@ -1,4 +1,4 @@
-@Regression @LoginTest1
+@Regression @LoginTest
 Feature: Login Scenarios
 
 	#Scenario 1
