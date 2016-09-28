@@ -15,4 +15,4 @@ Feature: Like a user request find and select any Contacts
 	Examples:
 
 	|  username  | password | 
-	| gvelasquez | belatrix | 
+	| rrashuaman | belatrix | 

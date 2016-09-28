@@ -12,4 +12,4 @@ Feature: Login Scenarios
 
 	Examples:
 	|  username  | password |
-	| gvelasquez | belatrix |
+	| rrashuaman | belatrix |

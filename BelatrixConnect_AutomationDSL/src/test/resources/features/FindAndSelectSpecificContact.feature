@@ -18,4 +18,4 @@ Feature: Like a user requests find a specific Contact
 	Examples:
 
 	|  username  | password | contact                   |
-	| gvelasquez | belatrix | Juan Bryan Estrada Acosta |
+	| rrashuaman | belatrix | Juan Bryan Estrada Acosta |

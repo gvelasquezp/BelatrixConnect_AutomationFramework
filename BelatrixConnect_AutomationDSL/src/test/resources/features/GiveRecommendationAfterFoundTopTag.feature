@@ -35,4 +35,4 @@ Feature: Like a User i want give a recommendation after found top Tag
 	Examples:
 
 	|  username  | password | tagName | comment                                     |contactName | category  | subCategory | tag           |
-	| gvelasquez | belatrix | ANDROID | this is a comment of automation test        |Ivan Cerrate| Coworker  | Demo        | ANDROID       |
+	| rrashuaman | belatrix | ANDROID | this is a comment of automation test        |Ivan Cerrate| Coworker  | Demo        | ANDROID       |

@@ -1,7 +1,7 @@
 package com.belatrix.connect.steps;
 
-import org.testng.annotations.AfterClass;
 import com.belatrix.connect.framework.ParentScenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -77,10 +77,10 @@ public class LoginScenariesSteps extends ParentScenario{
 	@And ("^I confirm the message of password Recovery displayed$")
 	public void I_confirm_the_message_of_password_Recovery_displayed() {
 		System.out.println("I confirm the alert message");
-		alertMessageConfirmation.aceptConfirmationMessage();
+		alertMessageConfirmation.aceptConfirmationAlertDialog();
 	}
 	
-	@AfterClass
+	@After
 	public void afterClass() {
 		closeDriver();
 	}

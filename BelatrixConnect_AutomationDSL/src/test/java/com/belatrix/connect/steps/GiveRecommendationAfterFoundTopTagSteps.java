@@ -132,13 +132,13 @@ public class GiveRecommendationAfterFoundTopTagSteps extends ParentScenario{
 
 	@Then("^I should see the message of action done successfully$")
 	public void i_should_see_the_message_of_action_done_successfully(){
-	    alertMessageConfirmation.waitForMessageConfirmation();
+	    alertMessageConfirmation.waitForSnackBarMessage();
 	    System.out.println("Display the Message of Confirmation");
 	}
 
 	@Then("^I confirm the success message$")
 	public void i_confirm_the_success_message(){
-		alertMessageConfirmation.aceptConfirmationMessage();
+		alertMessageConfirmation.aceptConfirmationSnackBar();
 		System.out.println("I confirmed the message");
 	}
 
