@@ -1,4 +1,4 @@
-@Regression1 @EditProfile
+@Regression @EditProfile
 Feature: Edit My Profile
 
 	#Scenario 1
