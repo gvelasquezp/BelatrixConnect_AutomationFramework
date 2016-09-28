@@ -76,6 +76,7 @@ public class LoginPage extends ParentPage {
 	 **/
 	public void forgotPasswordOption_iOS()
 	{
+		click(CONTAINER_PAGE_iOS);
 		click(HLNK_FORGOT_PASSWORD_iOS);
 	}
 	
