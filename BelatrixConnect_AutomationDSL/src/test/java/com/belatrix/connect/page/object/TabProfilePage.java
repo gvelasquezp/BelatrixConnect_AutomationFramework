@@ -2,6 +2,7 @@ package com.belatrix.connect.page.object;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import com.belatrix.connect.framework.ParentPage;
 
 public class TabProfilePage extends ParentPage{
@@ -11,7 +12,7 @@ public class TabProfilePage extends ParentPage{
 	}
 	
 	By CONTAINER_PAGE = By.
-			id("com.belatrixsf.connect:id/account_swipe_refresh");
+			id("com.belatrixsf.connect:id/main_view_pager");
 	By BTN_SIDEBAR = By.
 			xpath("//android.widget.ImageButton[@index='0']");
 	By BTN_EDIT = By.
@@ -58,6 +59,37 @@ public class TabProfilePage extends ParentPage{
 	public void loadPageSucessfully()
 	{
 		handlingWaitsToElement(CONTAINER_PAGE);
+		handlingWaitsToElement(PROFILE_NAME);
+		handlingWaitsToElement(BTN_EDIT);
+	}
+	
+	/**
+	  * This a method is for wait the sideBar Option
+	 **/
+	public void loadSideBarButtonOption()
+	{
+		handlingWaitsToElement(BTN_SIDEBAR);
+	}
+	
+	/**
+	  * This a method is for do click on Edit Profile
+	 **/
+	public void openEditProfile()
+	{
+		click(BTN_EDIT);
+	}
+	
+	/**
+	  * This a method is for to check the update of data are correct
+	  * @param String firstName
+	  * @param String lastName
+	  * @param String skypeId
+	 **/
+	public void checkUpdateDataEdited(String firstName, String lastName, String skypeId, String location)
+	{
+		Assert.assertEquals(getTextValue(PROFILE_NAME).equals(firstName + " "+ lastName), true);
+		Assert.assertEquals(getTextValue(PROFILE_SKYPE_ID).equals(skypeId), true);
+		Assert.assertEquals(getTextValue(PROFILE_LOCATION).equals(location), true);
 	}
 	
 	/**

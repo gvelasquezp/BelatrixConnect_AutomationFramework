@@ -1,4 +1,4 @@
-@Regression @LoginTest1
+@Regression @LoginTest
 Feature: Login Scenarios
 
 	#Scenario 1
@@ -12,4 +12,4 @@ Feature: Login Scenarios
 
 	Examples:
 	|  username  | password |
-	| gvelasquez | belatrix |
+	| rrashuaman | belatrix |

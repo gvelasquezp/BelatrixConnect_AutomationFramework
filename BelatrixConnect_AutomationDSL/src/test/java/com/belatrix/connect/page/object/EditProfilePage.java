@@ -33,11 +33,21 @@ public class EditProfilePage extends ParentPage{
 	By RBTN_USA = By.
 			xpath("//android.widget.RadioButton[@text='USA']");
 
+	/**
+	  * This a method is for a edit the data basic profile
+	  * @param String firstName
+	  * @param String lastName
+	  * @param String skypeId
+	  * @param String location
+	 **/
 	public void editDataProfile(String firstName, String lastName, String skypeId, String location)	{
+		clearTextValue(TXT_FIRST_NAME);
 		sendKeys(TXT_FIRST_NAME, firstName);
 		clickAndroidBackButton();
+		clearTextValue(TXT_LAST_NAME);
 		sendKeys(TXT_LAST_NAME, lastName);
 		clickAndroidBackButton();
+		clearTextValue(TXT_SKYPE_ID);
 		sendKeys(TXT_SKYPE_ID, skypeId);
 		clickAndroidBackButton();
 		
@@ -56,8 +66,19 @@ public class EditProfilePage extends ParentPage{
 			click(RBTN_USA);
 	}
 	
+	/**
+	  * This a method is for a click a button Done to finish the edition
+	 **/
 	public void finishTheEditionProfile()
 	{
 		click(BTN_DONE);
+	}
+	
+	/**
+	  * This a method is for wait to load the page successfully
+	 **/
+	public void loadPageSucessfully()
+	{
+		handlingWaitsToElement(CONTAINER_PAGE);
 	}
 }

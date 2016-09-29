@@ -10,13 +10,13 @@ public class AlertMessageConfirmation extends ParentPage{
 		super(driver);
 	}
 	
-	By CONTEINER_MESSAGE = By.
+	By ALERT_DIALOG_CONTEINER_MESSAGE = By.
 			id("android:id/parentPanel");
-	By TITLE_MESSAGE = By.
+	By ALERT_DIALOG_TITLE_MESSAGE = By.
 			id("android:id/alertTitle");
-	By MESSAGE = By.
+	By ALERT_DIALOG_MESSAGE = By.
 			id("android:id/message");
-	By BTN_CONFIRM = By.
+	By ALERT_DIALOG_BTN_CONFIRM = By.
 			id("android:id/button1");
 	By CONTAINER_MESSAGE_iOS = By.
 			xpath("//UIAApplication[1]/UIAWindow[4]/UIAAlert[1]");
@@ -27,12 +27,22 @@ public class AlertMessageConfirmation extends ParentPage{
 	By BTN_CONFIRM_iOS = By.
 			xpath("//UIAApplication[1]/UIAWindow[4]/UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[1]/UIAButton[1]");
 	
+	By SNACK_BAR_CONTEINER_MESSAGE = By.
+			xpath("android.widget.LinearLayout[@index='1']");
+	By SNACK_BAR_MESSAGE = By.
+			id("com.belatrixsf.connect:id/snackbar_text");
+	By SNACK_BAR_BTN_CONFIRM = By.
+			id("com.belatrixsf.connect:id/snackbar_action");
+	
+	
+	
 	/**
+	  * Just for Message of type Alert Dialog 
 	  * This a method is for do click on confirm button
 	 **/
-	public void aceptConfirmationMessage()
+	public void aceptConfirmationAlertDialog()
 	{
-		click(BTN_CONFIRM);
+		click(ALERT_DIALOG_BTN_CONFIRM);
 	}
 	
 	/**
@@ -45,13 +55,14 @@ public class AlertMessageConfirmation extends ParentPage{
 	
 	
 	/**
+
 	  * This a method is for wait load the message alert
 	 **/
-	public void waitForMessageConfirmation()
+	public void waitForAlertDialogMessage()
 	{
-		handlingWaitsToElement(CONTEINER_MESSAGE);
-		handlingWaitsToElement(TITLE_MESSAGE);
-		handlingWaitsToElement(MESSAGE);
+		handlingWaitsToElement(ALERT_DIALOG_CONTEINER_MESSAGE);
+		handlingWaitsToElement(ALERT_DIALOG_TITLE_MESSAGE);
+		handlingWaitsToElement(ALERT_DIALOG_MESSAGE);
 	}
 	
 	/**
@@ -63,4 +74,24 @@ public class AlertMessageConfirmation extends ParentPage{
 		handlingWaitsToElement(TITLE_MESSAGE_iOS);
 		handlingWaitsToElement(MESSAGE_iOS);
 	}
+
+	  * Just for Message of type SNACK BAR 
+	  * This a method is for do click on confirm button
+	 **/
+	public void aceptConfirmationSnackBar()
+	{
+		click(SNACK_BAR_BTN_CONFIRM);
+	}
+	
+	/**
+	  * Just for Message of type android SNACK BAR 
+	  * This a method is for wait load the SNACK BAR
+	 **/
+	public void waitForSnackBarMessage()
+	{
+		handlingWaitsToElement(SNACK_BAR_MESSAGE);
+		handlingWaitsToElement(SNACK_BAR_BTN_CONFIRM);
+	}
+	
+
 }

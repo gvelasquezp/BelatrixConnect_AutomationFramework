@@ -50,6 +50,7 @@ public class AlertMessageTwoOptions  extends ParentPage{
 	{
 		click(YES_OPTION);
 	}
+
 	
 	/**
 	  * This method is for do click in Accept option
