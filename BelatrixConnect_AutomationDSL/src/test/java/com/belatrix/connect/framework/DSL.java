@@ -93,4 +93,5 @@ public abstract class DSL {
 		handlingWaitsToElement(newLocator);
 		click(newLocator);
 	}
+
 }
