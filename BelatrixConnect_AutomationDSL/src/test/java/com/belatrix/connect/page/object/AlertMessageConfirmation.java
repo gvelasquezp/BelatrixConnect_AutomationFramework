@@ -75,7 +75,7 @@ public class AlertMessageConfirmation extends ParentPage{
 		handlingWaitsToElement(MESSAGE_iOS);
 	}
 
-	  * Just for Message of type SNACK BAR 
+	 /** * Just for Message of type SNACK BAR 
 	  * This a method is for do click on confirm button
 	 **/
 	public void aceptConfirmationSnackBar()

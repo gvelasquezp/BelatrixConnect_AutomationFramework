@@ -23,9 +23,7 @@ import com.belatrix.connect.page.object.SideBarNavigation;
 import com.belatrix.connect.page.object.TabLinearLayout;
 import com.belatrix.connect.page.object.TabProfilePage;
 import com.belatrix.connect.page.object.TabRankingPage;
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
-import io.appium.java_client.remote.MobileCapabilityType;
 import com.belatrix.connect.page.object.TabTopTagPage;
 import com.belatrix.connect.page.object.WriteCommentPage;
 
