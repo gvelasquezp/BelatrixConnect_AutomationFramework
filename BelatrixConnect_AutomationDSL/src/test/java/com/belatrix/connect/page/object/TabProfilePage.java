@@ -15,6 +15,8 @@ public class TabProfilePage extends ParentPage{
 			id("com.belatrixsf.connect:id/main_view_pager");
 	By BTN_SIDEBAR = By.
 			xpath("//android.widget.ImageButton[@index='0']");
+	By BTN_EDIT_SKILL = By.
+			id("com.belatrixsf.connect:id/action_edit_skills");
 	By BTN_EDIT = By.
 			id("com.belatrixsf.connect:id/action_edit_profile");
 	By PROFILE_NAME = By.
@@ -79,5 +81,13 @@ public class TabProfilePage extends ParentPage{
 		Assert.assertEquals(getTextValue(PROFILE_NAME).equals(firstName + " "+ lastName), true);
 		Assert.assertEquals(getTextValue(PROFILE_SKYPE_ID).equals(skypeId), true);
 		Assert.assertEquals(getTextValue(PROFILE_LOCATION).equals(location), true);
+	}
+	
+	/**
+	  * This a method is for do click on Button More (Give Recommendation)
+	 **/
+	public void giveRecommendationOption()
+	{
+		click(BTN_MORE);
 	}
 }

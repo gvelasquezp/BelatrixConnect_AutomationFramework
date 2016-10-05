@@ -85,7 +85,10 @@ public class ParentScenario {
 	protected void navigateTo(String url) {
 		driver.navigate().to(url);
 	}
-
+	
+	/**
+	  * This a method is for quit of connection
+	 **/
 	protected void closeDriver() {
 		driver.quit();
 	}

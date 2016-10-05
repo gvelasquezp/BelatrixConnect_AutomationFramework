@@ -20,6 +20,8 @@ public class GiveRecommendationPage extends ParentPage{
 			id("com.belatrixsf.connect:id/action_done");
 	By TXT_USER_NAME = By.
 			id("com.belatrixsf.connect:id/contact_full_name");
+	By SELECT_USER = By.
+			xpath("//android.widget.TextView[@text='Select user']");
 	By SELECT_CATEGORY = By.
 			xpath("//android.widget.TextView[@text='Select Category']");
 	By WRITE_COMMEND = By.
@@ -30,6 +32,9 @@ public class GiveRecommendationPage extends ParentPage{
 	
 	/**
 	  * This a method is for wait for a Give Recommendation page load
+	  * when use a parameter contactName is because you already
+	  * selected an user before enter in this page
+	  * @param contactName
 	 **/
 	public void loadPageSuccessfully(String contactName)
 	{
@@ -38,6 +43,36 @@ public class GiveRecommendationPage extends ParentPage{
 		Assert.assertEquals("The user give recommendation page doesnt correct", 
 				contactName, getTextValue(TXT_USER_NAME));
 	}
+	
+	/**
+	  * This a method is for wait for a Give Recommendation page load
+	  * when not use a parameter is because we are enter in this page
+	  * without selected an user
+	 **/
+	public void loadPageSuccessfully()
+	{
+		handlingWaitsToElement(CONTAINER_PAGE);
+		handlingWaitsToElement(SELECT_USER);
+		handlingWaitsToElement(BTN_BACK_PAGE);
+	}
+	
+	/**
+	  * This a method is for do click on select an user option
+	 **/
+	public void selectUser()
+	{
+		click(SELECT_USER);
+	}
+	
+	/**
+	  * This a method is for check the subCateogry Selected by the user
+	  * @param contactName
+	 **/
+	public void checkUserSelected(String contactName)
+	{
+		handlingWaitsToNewElementByText(SELECT_USER, contactName);
+	}
+	
 	
 	/**
 	  * This a method is for do click on select category option
@@ -53,7 +88,7 @@ public class GiveRecommendationPage extends ParentPage{
 	 **/
 	public void checkSubCategorySelected(String subCategory)
 	{
-		handlingWaitsToNewElementByText(SELECT_CATEGORY,subCategory);
+		handlingWaitsToNewElementByText(SELECT_CATEGORY, subCategory);
 	}
 	
 	/**
@@ -70,7 +105,7 @@ public class GiveRecommendationPage extends ParentPage{
 	 **/
 	public void checkTheCommentEntered(String commnet)
 	{
-		handlingWaitsToNewElementByText(WRITE_COMMEND,commnet);
+		handlingWaitsToNewElementByText(WRITE_COMMEND, commnet);
 	}
 	
 	/**
@@ -87,7 +122,7 @@ public class GiveRecommendationPage extends ParentPage{
 	 **/
 	public void checkTheTagSelected(String tag)
 	{
-		handlingWaitsToNewElementByText(WRITE_COMMEND,tag);
+		handlingWaitsToNewElementByText(SELECT_TAG, tag);
 	}
 	
 	/**

@@ -50,5 +50,7 @@ public class LoginPage extends ParentPage {
 	public void loadPageSuccessfully()
 	{
 		handlingWaitsToElement(CONTAINER_PAGE);
+		handlingWaitsToElement(TXT_USER_NAME);
+		handlingWaitsToElement(HLNK_NEW_USER);
 	}
 }

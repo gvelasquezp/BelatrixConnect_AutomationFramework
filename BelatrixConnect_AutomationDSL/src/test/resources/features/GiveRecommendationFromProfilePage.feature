@@ -1,19 +1,19 @@
-@Regression @GiveComment
-Feature: Like a User i want give a recommendation after found top Tag
+@Regression @GiveComment1
+Feature: Like a User i want give a recommendation from my profile Page
 
-	#Scenario 1 
+	#Scenario 2 
 	Scenario Outline: The user requests find a specific Contact
 		Given I login with my "<username>" and my "<password>"
 			And I'm on my profile page
-		When I click on Top Tags tab
-		Then I see one list of all Top Tags used
-		When I click on this Tag Name "<tagName>" of the list
-		Then I see one list of all contacts with points on page "<tagName>"
-		When I click on this contact "<contactName>" of the list
-			And I see the profile of the contact "<contactName>" selected
-			And I click on Recommend Option
-		Then I should see the Give a Recommendation to contact "<contactName>"
+		When I click on button give a Recommendation
+		Then I should see the Give a Recommendation page
 			And I check the button done is disabled
+		When I click on select a user option
+		Then  I see one list of all contacts
+		When I click on find a Contact
+			And type the next Contact "<contact>"
+			And click over the field of this Contact "<contact>"
+		Then I should see the contact "<contact>" selected
 		When I click in select a Category
 			And select a Category as "<category>" 
 			And Select a Subcategory as "<subCategory>" 
@@ -34,5 +34,5 @@ Feature: Like a User i want give a recommendation after found top Tag
 
 	Examples:
 
-	|  username  | password | tagName | comment                                     |contactName | category  | subCategory | tag           |
-	| rrashuaman | belatrix | ANDROID | this is a comment of automation test        |Ivan Cerrate| Coworker  | Demo        | ANDROID       |
+	|  username  | password | comment                                     |contact                   | category  | subCategory | tag           |
+	| rrashuaman | belatrix | this is a comment of automation test        |Juan Bryan Estrada Acosta | Coworker  | Demo        | ANDROID       |

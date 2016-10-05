@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Test runner" duration-ms="527" started-at="2016-09-19T21:09:51Z" finished-at="2016-09-19T21:09:52Z">
-    <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.belatrix.connect.AppTest@6536e911]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
-    </groups>
-    <test name="TestAndroid" duration-ms="527" started-at="2016-09-19T21:09:51Z" finished-at="2016-09-19T21:09:52Z">
-      <class name="com.belatrix.connect.AppTest">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.belatrix.connect.AppTest@6536e911]" name="run_cukes" duration-ms="508" started-at="2016-09-19T16:09:51Z" description="Runs Cucumber Features" finished-at="2016-09-19T16:09:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run_cukes -->
-      </class> <!-- com.belatrix.connect.AppTest -->
-    </test> <!-- TestAndroid -->
-  </suite> <!-- Test runner -->
+	<reporter-output>
+	</reporter-output>
+	<suite name="Test runner" duration-ms="527" started-at="2016-09-19T21:09:51Z"
+		finished-at="2016-09-19T21:09:52Z">
+		<groups>
+			<group name="cucumber">
+				<method
+					signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.belatrix.connect.AppTest@6536e911]"
+					name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests" />
+			</group> <!-- cucumber -->
+		</groups>
+		<test name="TestAndroid" duration-ms="527" started-at="2016-09-19T21:09:51Z"
+			finished-at="2016-09-19T21:09:52Z">
+			<class name="com.belatrix.connect.AppTest">
+				<test-method status="PASS"
+					signature="run_cukes()[pri:0, instance:com.belatrix.connect.AppTest@6536e911]"
+					name="run_cukes" duration-ms="508" started-at="2016-09-19T16:09:51Z"
+					description="Runs Cucumber Features" finished-at="2016-09-19T16:09:52Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- run_cukes -->
+			</class> <!-- com.belatrix.connect.AppTest -->
+		</test> <!-- TestAndroid -->
+	</suite> <!-- Test runner -->
 </testng-results>
