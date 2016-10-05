@@ -1,5 +1,5 @@
 @iOS @iOSLoginTest2
-Feature: Login Scenarios
+Feature: Login with incorrect username
 
 	#Scenario 1
 	Scenario Outline: Login with incorrect username

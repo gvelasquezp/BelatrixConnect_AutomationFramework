@@ -1,5 +1,5 @@
 @iOS @iOSLoginTest3
-Feature: Login Scenarios
+Feature: Login with incorrect password
 
 	#Scenario 1
 	Scenario Outline: Login with incorrect password

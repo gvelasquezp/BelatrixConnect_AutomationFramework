@@ -1,5 +1,5 @@
 @iOS @iOSLoginTest4
-Feature: Login Scenarios
+Feature: Login after Password Recovered
 
 	#Scenario 1
 	Scenario Outline: Login after Password Recovered
