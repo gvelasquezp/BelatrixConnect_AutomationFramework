@@ -1,4 +1,4 @@
-@Regression @LoginTest
+@Regression @LoginTestJuan
 Feature: Login with correct values
 
 	#Scenario 1
