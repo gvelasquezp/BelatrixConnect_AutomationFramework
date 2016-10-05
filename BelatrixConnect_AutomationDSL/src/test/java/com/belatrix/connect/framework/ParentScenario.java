@@ -51,7 +51,7 @@ public class ParentScenario {
 	public void startAndroid() {
 		String url = "http://127.0.0.1:4723/wd/hub";
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "CB5A28Q2LU");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
 		cap.setCapability(MobileCapabilityType.APP_PACKAGE, "com.belatrixsf.connect");
 
