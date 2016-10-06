@@ -35,8 +35,6 @@ public class AlertMessageConfirmation extends ParentPage{
 	By SNACK_BAR_BTN_CONFIRM = By.
 			id("com.belatrixsf.connect:id/snackbar_action");
 	
-	
-	
 	/**
 	  * Just for Message of type Alert Dialog 
 	  * This a method is for do click on confirm button
