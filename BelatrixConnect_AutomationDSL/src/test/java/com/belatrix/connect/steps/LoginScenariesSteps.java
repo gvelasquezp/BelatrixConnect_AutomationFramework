@@ -1,7 +1,7 @@
 package com.belatrix.connect.steps;
 
+import org.testng.annotations.AfterClass;
 import com.belatrix.connect.framework.ParentScenario;
-import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -160,7 +160,7 @@ public class LoginScenariesSteps extends ParentScenario{
 		alertMessageConfirmation.aceptConfirmationAlertDialog();
 	}
 	
-	@After
+	@AfterClass
 	public void afterClass() {
 		closeDriver();
 	}

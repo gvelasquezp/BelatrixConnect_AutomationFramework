@@ -1,4 +1,4 @@
-@Regression @GiveComment1
+@RegressionAndroid @GiveComment
 Feature: Like a User i want give a recommendation from my profile Page
 
 	#Scenario 2 

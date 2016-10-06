@@ -1,4 +1,4 @@
-@Regression @LoginTest
+@RegressionAndroid @LoginTest
 Feature: Login fail then recovery the password
 
 	#Scenario 1

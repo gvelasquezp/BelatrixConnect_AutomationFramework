@@ -1,4 +1,4 @@
-@Regression @GiveComment
+@RegressionAndroid @GiveComment
 Feature: Like a User i want give a recommendation after found top Tag
 
 	#Scenario 2 

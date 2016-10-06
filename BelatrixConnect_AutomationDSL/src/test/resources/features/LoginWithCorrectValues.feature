@@ -1,4 +1,4 @@
-@Regression @LoginTest
+@RegressionAndroid @LoginTest
 Feature: Login with correct values
 
 	#Scenario 1
