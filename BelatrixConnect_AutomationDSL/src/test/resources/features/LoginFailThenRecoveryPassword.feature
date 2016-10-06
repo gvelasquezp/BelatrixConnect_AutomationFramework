@@ -1,5 +1,5 @@
 @Regression @LoginTest
-Feature: Login Scenarios
+Feature: Login fail then recovery the password
 
 	#Scenario 1
 	Scenario Outline: Login after Password Recovered

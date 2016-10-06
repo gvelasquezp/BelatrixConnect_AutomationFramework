@@ -4,7 +4,7 @@ import com.belatrix.connect.framework.ParentScenario;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class GiveRecommendationAfterFoundTopTagSteps extends ParentScenario{
+public class GiveRecommendationSteps extends ParentScenario{
 	
 	@When("^I click on this Tag Name \"(.*?)\" of the list$")
 	public void i_click_on_this_Tag_Name_of_the_list(String tagName){
@@ -103,13 +103,13 @@ public class GiveRecommendationAfterFoundTopTagSteps extends ParentScenario{
 	public void i_click_in_select_a_Tag(){
 		System.out.println("I click in Select Tag Option");
 		giveRecommendationPage.selectTag();	
+	    selectTagPage.loadPageSuccessfully();
+	    System.out.println("The Tag page is load Successfully");
 	}
 
 	@When("^I select a Tag \"(.*?)\"$")
 	public void i_select_a_Tag(String tag){
-	    selectTagPage.loadPageSuccessfully();
-	    System.out.println("The Tag page is load Successfully");
-		selectTagPage.selectSubCategory(tag);
+		selectTagPage.selectTag(tag);
 		System.out.println("I select the Sub-category "+ tag +" correctly");
 	}
 
@@ -146,5 +146,29 @@ public class GiveRecommendationAfterFoundTopTagSteps extends ParentScenario{
 	public void i_back_the_page_to_exit_of_the_App(){
 	    contactProfilePage.clickBackPage();
 	    System.out.println("I click back of contact Profile Page");
+	}
+	
+	@When("^I click on button give a Recommendation$")
+	public void i_click_on_button_give_a_Recommendation(){
+		System.out.println("I click on Give Recommendation Option");
+		tabProfilePage.giveRecommendationOption();
+	}
+
+	@Then("^I should see the Give a Recommendation page$")
+	public void i_should_see_the_Give_a_Recommendation_page(){
+	    giveRecommendationPage.loadPageSuccessfully();
+	    System.out.println("the Give Recommendation page was load sucessfully");
+	}
+
+	@When("^I click on select a user option$")
+	public void i_click_on_select_a_user_option(){
+	    giveRecommendationPage.selectUser();
+	    System.out.println("i click on select user option");
+	}
+
+	@Then("^I should see the contact \"(.*?)\" selected$")
+	public void i_should_see_the_contact_selected(String contactName){
+	    giveRecommendationPage.checkUserSelected(contactName);
+	    System.out.println("I select the User "+ contactName +" correctly");
 	}
 }

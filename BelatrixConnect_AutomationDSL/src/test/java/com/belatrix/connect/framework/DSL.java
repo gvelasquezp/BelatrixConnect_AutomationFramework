@@ -61,7 +61,7 @@ public abstract class DSL {
 	 **/
 	public void handlingWaitsToElement(By locator)
 	{
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
 	
@@ -73,7 +73,7 @@ public abstract class DSL {
 	 **/
 	public void handlingWaitsToNewElementByText(By locator, String textValue)
 	{
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		By newLocator = By.xpath(locator.toString().replaceAll("(By.xpath: )|(\\[@text.*?\\])", "")
 				+ "[@text='"+textValue+"']");
 		wait.until(ExpectedConditions.presenceOfElementLocated(newLocator));

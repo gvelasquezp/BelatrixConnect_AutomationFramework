@@ -18,6 +18,7 @@ public class AlertMessageConfirmation extends ParentPage{
 			id("android:id/message");
 	By ALERT_DIALOG_BTN_CONFIRM = By.
 			id("android:id/button1");
+	
 	By CONTAINER_MESSAGE_iOS = By.
 			xpath("//UIAApplication[1]/UIAWindow[4]/UIAAlert[1]");
 	By TITLE_MESSAGE_iOS = By.
@@ -53,9 +54,7 @@ public class AlertMessageConfirmation extends ParentPage{
 		click(BTN_CONFIRM_iOS);
 	}
 	
-	
 	/**
-
 	  * This a method is for wait load the message alert
 	 **/
 	public void waitForAlertDialogMessage()

@@ -9,7 +9,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(plugin = { "html:target/cucumber-html-reports",
 		"json:target/cucumber-html-reports/cucumber.json",
 		"junit:target/surefire-reports/cucumber-junit.xml" }, 
-		features = "src/test/resources/features/", 
+		features = {"src/test/resources/features/"}, 
+		format = { "pretty","html:target/cucumber-htmlreport", 
+		"json:target/cucumber-html-reports/cucumber.json" },
 		tags = "@Regression", 
 		glue = { "com.belatrix.connect.steps" })
 
