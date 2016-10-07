@@ -12,7 +12,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		features = {"src/test/resources/features/"}, 
 		format = { "pretty","html:target/cucumber-htmlreport", 
 		"json:target/cucumber-html-reports/cucumber.json" },
-		tags = "@Regression", 
+		tags = "@RegressionAndroid", 
 		glue = { "com.belatrix.connect.steps" })
 
 public class AppTest extends AbstractTestNGCucumberTests {

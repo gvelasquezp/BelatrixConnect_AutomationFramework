@@ -2,6 +2,7 @@ package com.belatrix.connect.page.object;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
 import com.belatrix.connect.framework.ParentPage;
 
 public class SelectAnUserPage extends ParentPage{
@@ -18,7 +19,7 @@ public class SelectAnUserPage extends ParentPage{
 			id("com.belatrixsf.connect:id/action_search");
 	By SELECT_A_CONTACT = By.
 			xpath("//android.support.v7.widget.RecyclerView[@index='0']"
-					+ "//android.widget.LinearLayout[@index='0']");
+					+ "/android.widget.LinearLayout[@index='0']");
 	By SEARCH_CONTACT = By.
 			id("com.belatrixsf.connect:id/search_term");
 	By BTN_CLOSE_SEARCH = By.
@@ -102,6 +103,7 @@ public class SelectAnUserPage extends ParentPage{
 	public void selectContactAfterSearch(String contactName)
 	{
 		loadElemensAfterSearch();
+		System.out.println("The Result of Search show correctly");
 		click(SELECT_A_CONTACT);
 	}
 }
