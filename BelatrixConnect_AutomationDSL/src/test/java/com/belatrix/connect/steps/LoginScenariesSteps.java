@@ -1,7 +1,7 @@
 package com.belatrix.connect.steps;
 
+import org.testng.annotations.AfterClass;
 import com.belatrix.connect.framework.ParentScenario;
-import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -128,12 +128,14 @@ public class LoginScenariesSteps extends ParentScenario{
 	public void app_login_should_appears() {
 		loginPage.loadPageSuccessfully();
 		System.out.println("Assert login page should show here");
+		closeDriver();
 	}
 
 	@Then("^I see an error message for invalid login$")
 	public void i_see_an_error_message_for_invalid_login() {
 		alertErrorMessage.waitForErrorMessage();
 		System.out.println("Assert alertmessage invalid should show here");
+		closeDriver();
 	}
 	
 	@And ("^App show me a message of error$")
@@ -160,7 +162,7 @@ public class LoginScenariesSteps extends ParentScenario{
 		alertMessageConfirmation.aceptConfirmationAlertDialog();
 	}
 	
-	@After
+	@AfterClass
 	public void afterClass() {
 		closeDriver();
 	}

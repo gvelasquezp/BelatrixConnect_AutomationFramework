@@ -1,4 +1,4 @@
-@Regression @EditProfile
+@RegressionAndroid @EditProfile
 Feature: Edit My Profile
 
 	#Scenario 1

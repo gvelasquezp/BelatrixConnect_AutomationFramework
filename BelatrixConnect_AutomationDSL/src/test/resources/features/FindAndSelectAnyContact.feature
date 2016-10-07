@@ -1,4 +1,4 @@
-@Regression @ContactTest
+@RegressionAndroid @ContactTest
 Feature: Like a user request find and select any Contacts
 
 	#Scenario 1

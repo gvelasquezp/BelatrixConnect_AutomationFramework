@@ -1,5 +1,5 @@
-@Regression @LoginTest
-Feature: Login Scenarios
+@RegressionAndroid @LoginTest
+Feature: Login with correct values
 
 	#Scenario 1
 	Scenario Outline: Login with correct values

@@ -1,4 +1,4 @@
-@Regression @TopTagTest
+@RegressionAndroid @TopTagTest
 Feature: Like a User i want find and select a Specific Top Tag 
 
 	#Scenario 1

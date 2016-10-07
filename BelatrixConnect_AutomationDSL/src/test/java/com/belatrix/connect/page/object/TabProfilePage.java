@@ -17,6 +17,8 @@ public class TabProfilePage extends ParentPage{
 			xpath("//android.widget.ImageButton[@index='0']");
 	By BTN_EDIT = By.
 			id("com.belatrixsf.connect:id/action_edit_profile");
+	By BTN_EDIT_SKILL = By.
+			id("com.belatrixsf.connect:id/action_edit_skills");
 	By PROFILE_NAME = By.
 			id("com.belatrixsf.connect:id/profile_name");
 	By PROFILE_EMAIL = By.
@@ -108,5 +110,13 @@ public class TabProfilePage extends ParentPage{
 		click(BTN_SETTINGS_iOS);
 		click(BTN_LOGOUT_iOS);
 		
+	}
+	
+	/**
+	  * This a method is for do click on Button More (Give Recommendation)
+	 **/
+	public void giveRecommendationOption()
+	{
+		click(BTN_MORE);
 	}
 }

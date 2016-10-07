@@ -1,5 +1,5 @@
-@Regression @LoginTest
-Feature: Login Scenarios
+@RegressionAndroid @LoginTest
+Feature: Login with incorrect user name
 
 	#Scenario 1
 	Scenario Outline: Login with incorrect username

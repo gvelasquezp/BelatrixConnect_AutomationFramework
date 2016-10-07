@@ -1,4 +1,4 @@
-@Regression @RankingTest
+@RegressionAndroid @RankingTest
 Feature: View the Current Month Ranking
 
 	#Scenario 1
